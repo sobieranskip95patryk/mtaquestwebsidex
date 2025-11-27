@@ -1,0 +1,49 @@
+/* Podstawowy styl i klimat tajemniczy/futurystyczny */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0a0a0a;
+    font-family: 'Orbitron', sans-serif;
+    color: #00ffea;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    text-align: center;
+}
+
+.title {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    animation: glow 2s infinite alternate;
+}
+
+.subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.magic-box {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    border: 2px solid #00ffea;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.magic-box:hover {
+    transform: scale(1.1) rotate(10deg);
+    box-shadow: 0 0 20px #00ffea;
+}
+
+@keyframes glow {
+    from { text-shadow: 0 0 5px #00ffea, 0 0 10px #00ffea; }
+    to { text-shadow: 0 0 20px #00ffea, 0 0 40px #00ffea; }
+}
