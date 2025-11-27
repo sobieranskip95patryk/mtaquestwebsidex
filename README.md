@@ -1,16 +1,18 @@
-# MTA Quest Websidex
+# MTA Quest Websidex – Strona, która robi wszystko
 
-Tajemnicza strona-niespodzianka przygotowana jako interaktywny eksperyment.
+## O projekcie
+To interaktywny eksperyment: tajemnicza strona, która reaguje na kliknięcia i ruch myszki, stopniowo ujawniając swoje sekrety.
 
 ## Funkcje
-- Kliknij w magiczny box, aby odkrywać kolejne etapy.
-- Stopniowo ujawnia się sekret.
-- Prosty futurystyczny styl: ciemne tło, neonowe kolory, animacje.
+- Magiczny box reaguje na kliknięcia i zmienia kolory, kształty oraz tekst.
+- Ruch myszki wpływa na transformację boxa.
+- Sekrety stopniowo ujawniają się w polu poniżej.
+- Tajemnica strony odkrywa się dopiero w interakcjach.
 
 ## Uruchomienie
 1. Otwórz projekt w VSCode.
-2. Otwórz `index.html` w przeglądarce (najlepiej Live Server).
-3. Klikaj w magiczny box i obserwuj interakcje.
+2. Otwórz `index.html` w przeglądarce (najlepiej przez Live Server).
+3. Klikaj w magiczny box i porusz myszką, aby odkrywać wszystkie niespodzianki.
 
 ## Rozwój
 - Dodaj własne grafiki do folderu `assets/`.
