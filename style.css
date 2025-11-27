@@ -1,5 +1,3 @@
-/* Podstawowy styl i klimat tajemniczy/futurystyczny */
-
 body {
     margin: 0;
     padding: 0;
@@ -18,13 +16,13 @@ body {
 }
 
 .title {
-    font-size: 3rem;
+    font-size: 2.8rem;
     margin-bottom: 1rem;
     animation: glow 2s infinite alternate;
 }
 
 .subtitle {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     margin-bottom: 2rem;
 }
 
@@ -36,11 +34,23 @@ body {
     border-radius: 15px;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    text-align: center;
 }
 
 .magic-box:hover {
     transform: scale(1.1) rotate(10deg);
     box-shadow: 0 0 20px #00ffea;
+}
+
+.extra-message {
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
+    color: #ff00ff;
+    min-height: 2rem;
 }
 
 @keyframes glow {
