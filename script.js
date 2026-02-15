@@ -40,12 +40,11 @@ box.addEventListener('click', () => {
     else if(interactionCount === 2) extra.innerText = "Czujesz magię w powietrzu?";
     else if(interactionCount === 3) extra.innerText = "Prawie odkryte!";
     else if(interactionCount === 4) {
-        extra.innerText = "Sekret ujawniony!";
-        document.querySelector('.title').innerText = "Gratulacje!";
-        document.querySelector('.subtitle').innerText = "Twoja przygoda zaczęła się na dobre!";
-    } else {
-        const phrases = ["Coś dziwnego...", "Magia rośnie...", "Nie uwierzysz, co się stanie...", "To dopiero początek!"];
-        extra.innerText = phrases[Math.floor(Math.random()*phrases.length)];
+        extra.innerText = "Odkryłeś tajemnicę!";
+        coherence = 100;
+        coherenceEl.innerText = coherence;
+        core.classList.remove('hidden');
+        resetBtn.classList.remove('hidden');
     }
 });
 
